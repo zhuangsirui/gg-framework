@@ -1,0 +1,11 @@
+{application, gg_framework, [
+  {description, "General game framework."},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {gg_framework_app, []}},
+  {env, []}
+]}.
